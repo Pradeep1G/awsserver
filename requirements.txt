@@ -2,6 +2,7 @@ Flask==2.0.1
 Flask-Cors==4.0.0
 Flask-Mail==0.9.1
 pymongo==4.4.0
-python-dotenv==1.0.0
+python-dotenv>=0.8.2
+
 
 
