@@ -16,14 +16,6 @@ CORS(app)
 
 
 app = Flask(__name__)
-app.config['MAIL_SERVER'] = 'smtp.gmail.com'  # Replace with your email server
-app.config['MAIL_PORT'] = 465
-app.config['MAIL_USE_TLS'] = False
-app.config['MAIL_USE_SSL'] = True
-app.config['MAIL_USERNAME'] = 'pradeepgeddada31@gmail.com'  # Replace with your email address
-app.config['MAIL_PASSWORD'] = os.environ.get('MAIL_PASSWORD')  # Replace with your email password
-
-mail = Mail(app)
 
 
 
