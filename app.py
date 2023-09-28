@@ -1,14 +1,8 @@
 
 from flask import Flask, render_template, request, jsonify
 from pymongo import MongoClient
-from bson.objectid import ObjectId
 from flask_cors import CORS
-from flask_mail import Mail, Message
-from pymongo.errors import InvalidOperation, DuplicateKeyError
-import random
-import jwt
-import datetime
-import json
+
 
 from dotenv import load_dotenv
 import os
